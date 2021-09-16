@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#formulario{
+    height: 250px;
+    width: 500px;
+    background-color:rgba(00, 00, 00, 0.8);
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 100px;
+    color: white;
+    backdrop-filter: blur(5px);
+
+}
+body{
+    background-image:url("../img/book.jpg");
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+
+}
+button{
+    width: 80px;
+    font-family: 'Cinzel', serif;
+    color: white;
+    background-color: grey;
+
+}
+button:hover{
+    background-color: rgb(51, 51, 51);
+
+}
+a{
+    position: absolute;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+
+}

@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-family: 'Cinzel', serif;
+    padding: 20px;
+   display: inline-block;
+    transition: background.2s;
+}
+.menu ul li a:hover{
+    background-color:#1849DE;
+
+}
+.menu{
+    width: 100%;
+    background-color: #1F1CB0;
+    position: fixed;
+}
+li{
+    display: inline;
+}
+#conteudo{
+    width: 100%;
+    height: 80vh;
+    background-color:#1849DE;
+    display: flex;
+}
+.caixa{
+    width: 400px;
+    height: 400px;
+    background-color:white;
+    margin: auto;
+    border-radius: 25px;
+}
+.img-um{
+    background-image: url("../img/imagem1.jpg");
+    background-size:cover;
+    text-align: center;
+}
+.img-dois{
+    background-image: url("../img/imagem2.jpg");
+    background-size:cover;
+    text-align: center;
+}
+.img-tres{
+    background-image: url("../img/imagem3.jpg");
+    background-size:cover;
+    background-position-y:center;
+    text-align: center;
+}
+.link-caixa{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(00, 00, 00, 0.8);
+    display: block;
+    font-family: 'Cinzel', serif;
+}
+.titulo-caixa{
+    color: white;
+    margin-top: 160px;
+    font-size: 35px;
+    background-color: rgba(00, 00, 00, 0.8);
+    font-family: 'Cinzel', serif;
+
+}
+#rodape{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Cinzel', serif;
+    background-color: #1F1CB0;
+    height: 300px;
+    padding-top: 165px;
+}
+.insta{  
+    position: relative;
+    top: 3px;
+}
