@@ -11,7 +11,7 @@
     font-size: 28px;
     font-family: 'Cinzel', serif;
     padding: 10px;
-   display: inline-block;
+    display: inline-block;
     transition: background.2s;
     margin: auto;
 }
@@ -23,17 +23,11 @@
     width: 100%;
     background-color: #1F1CB0;
     position: fixed;
-}
-li{
-    display: inline;
+    display: flex;
 }
 ul{
-    width: 50%;
-    height: 50px;
-    margin: auto;
     display: flex;
-    justify-content: space-between;
-
+    list-style: none;
 }
 #conteudo{
     width: 100%;
@@ -98,4 +92,56 @@ ul{
 }
 body{
     overflow-x: hidden;
+    
+}
+.icons{
+    display: block;
+}
+.icons i{
+    display: none;
+    font-size: 50px;
+}
+.openmenu{
+    display: none;
+}
+.closemenu{
+    display: none;
+}
+@media(max-width: 800px){
+
+    ul{
+        height: 40vh;
+        width: 100%;
+        flex-direction:column ;
+        background-color: #1F1CB0;
+        align-items: center;
+        list-style: none;
+        z-index: 10;
+        display: none;
+        transition: top 1s ease;
+    }
+    .icons i{
+        display: inline-block;
+        color: white;
+        padding: 5px;
+        font-size: 25px;
+    }
+    .openmenu{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        color: white;
+        font-size: 25px;
+    }
+    .closemenu{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        color: white;
+        font-size: 25px;
+    }
 }
